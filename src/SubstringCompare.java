@@ -35,5 +35,4 @@ public class SubstringCompare {
 
         System.out.println(getSmallestAndLargest(s, k));
     }
-
 }
