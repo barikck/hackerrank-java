@@ -39,7 +39,7 @@ public class Anagrams {
         long startTime = System.currentTimeMillis();
         boolean ret = isAnagramEfficient(a, b);
         long endTime = System.currentTimeMillis();
-        System.out.println( (ret) ? "string.Anagrams" : "Not string.Anagrams" );
+        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
         System.out.println("time taken: "+ (endTime-startTime)+"--start: "+startTime+" end: "+endTime);
     }
 
